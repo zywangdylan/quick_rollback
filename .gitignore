@@ -1,15 +1,18 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+/quick_rollback_client/node_modules
+/quick_rollback_server/node_modules
 
 # testing
 /coverage
 
 # production
-/dist
+/history.json
+/quick_rollback_client/build
+/quick_rollback_client/history
+/quick_rollback_server/dist
+/quick_rollback_server/node_modules
 
 # misc
 .DS_Store
