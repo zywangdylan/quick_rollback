@@ -7,6 +7,7 @@ Welcome to the `quick_rollback_client` directory. This is where the main applica
 - **src/**: Contains the main source code for the application.
 - **history/**：All the built folders of previous versions.
 - **build/**: Latest built folder.
+  
 To extend this application:
 - **components/**: Houses reusable UI components.
 - **views/**: Contains different views or pages of the application.
